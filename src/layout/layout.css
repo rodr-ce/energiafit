@@ -1,0 +1,27 @@
+header {
+    color: rgb(255, 255, 255, 0.87);
+    background-color: var(--dark-background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-navlink {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
